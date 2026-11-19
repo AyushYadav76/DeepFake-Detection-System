@@ -1,0 +1,27 @@
+@"
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+frontend/node_modules/
+frontend/dist/
+
+uploads/
+outputs/
+
+models/*
+!models/.gitkeep
+
+*.pth
+*.pt
+*.onnx
+*.h5
+*.keras
+
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore
